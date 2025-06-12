@@ -29,3 +29,9 @@ chainlit run app.py -w
 5. Start LM Studio's dev server with a model of your choice that supports tool calls (https://lmstudio.ai/docs/app/api/tools)
 
 6. Connect an MCP server and try it out in the Chainlit UI
+
+7. Try run the following command in MCP servers:
+
+```
+npx -y firecrawl-mcp --tools=all --api_key=fc-73d264b399134b158b847db0032d2bd6
+```
